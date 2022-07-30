@@ -75,3 +75,25 @@ $ cd scripts/rofi
 [*] Creating a backup of your rofi configs...
 [*] Successfully Installed.
 ```
+
+### polybar
+
+- Change to `polybar` directory:
+```
+$ cd scripts/polybar
+```
+
+- Run `setup.sh` & select a style:
+```
+[*] Installing Polybar Themes...
+
+[*] Choose Style -
+[1] Simple
+[2] Bitmap
+
+[?] Select Option : 1
+
+[*] Installing fonts...
+[*] Creating a backup of your polybar configs...
+[*] Successfully Installed.
+```
