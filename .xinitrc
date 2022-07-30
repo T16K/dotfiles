@@ -64,7 +64,7 @@ get_session(){
 }
 
 feh --bg-scale ./Pictures/a.jpg
-bash ~/.config/polybar/launch.sh --material
+bash ~/.config/polybar/launch.sh --cuts
 picom &
 xset r rate 200 60
 exec dbus-launch --sh-syntax --exit-with-session i3
