@@ -5,11 +5,11 @@
 #
 # square     circle     rounded
 
-style="square"
+#style="square"
 
 # uncomment these lines to enable random style
-#styles=('square' 'circle' 'rounded')
-#style="${styles[$(( $RANDOM % 3 ))]}"
+styles=('square' 'circle' 'rounded')
+style="${styles[$(( $RANDOM % 3 ))]}"
 
 # print style name
 echo "$style"
