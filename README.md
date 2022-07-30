@@ -11,15 +11,12 @@ $ git clone https://github.com/T16K/dotfiles.git
 
 - **`polybar`**:
 - **`rofi`**:  
-- **`pywal`**:
-- **`calc`**:
-- **`networkmanager_dmenu`**:
 - **`feh`**:
-- **`cron`**:
 - **`neovim`**:
 - **`slim`**:
 - **`kitty`**:
-- **`xrandr`**:
+- **`scrot`**:
+- **`picom`**:
 
 ## Scripts
 
