@@ -37,7 +37,6 @@ $ ./install
 
 - Run `kitty-cat` & select the right option:
 ```
-
     /\___/\ 			         
     \ -.- /  ┃ ┃┛━┏┛━┏┛┃ ┃  ┏━┛┏━┃━┏┛  
     '-.^.-'  ┏┛ ┃ ┃  ┃ ━┏┛  ┃  ┏━┃ ┃   
@@ -53,4 +52,26 @@ $ ./install
     [Q] Quit
     
     [Select Option]: 
+```
+
+### rofi
+
+- Change to `rofi` directory:
+```
+$ cd scripts/rofi
+```
+
+- Run `setup.sh` & select your screen resolution:
+```
+[*] Installing Rofi Themes...
+
+[*] Choose your screen resolution -
+[1] 1920x1080
+[2] 1366x768
+
+[?] Select Option : 1
+
+[*] Installing fonts...
+[*] Creating a backup of your rofi configs...
+[*] Successfully Installed.
 ```
