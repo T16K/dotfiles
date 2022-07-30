@@ -2,7 +2,7 @@
 
 ## Installation
 
-* First Clone this repository -
+* First Clone this repository:
 ```
 $ git clone https://github.com/T16K/dotfiles.git
 ```
@@ -20,3 +20,37 @@ $ git clone https://github.com/T16K/dotfiles.git
 - **`slim`**:
 - **`kitty`**:
 - **`xrandr`**:
+
+## Scripts
+
+### kitty
+
+- Change to `kitty` directory:
+```
+$ cd scripts/kitty
+```
+
+- To install it, run:
+```
+$ ./install
+```
+
+- Run `kitty-cat` & select the right option:
+```
+
+    /\___/\ 			         
+    \ -.- /  ┃ ┃┛━┏┛━┏┛┃ ┃  ┏━┛┏━┃━┏┛  
+    '-.^.-'  ┏┛ ┃ ┃  ┃ ━┏┛  ┃  ┏━┃ ┃   
+      /'\    ┛ ┛┛ ┛  ┛  ┛   ━━┛┛ ┛ ┛   
+
+    [*] By- Aditya Shakya // adi1090x
+
+    [C] Colors (240)
+    [F] Fonts (27)
+    [R] Random
+    [I] Import
+    [A] About
+    [Q] Quit
+    
+    [Select Option]: 
+```
