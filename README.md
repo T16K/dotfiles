@@ -16,6 +16,7 @@ $ git clone https://github.com/T16K/dotfiles.git
 - **`picom`**: a standalone compositor for Xorg.
 - **`polybar`**: a fast and easy-to-use tool for creating status bars.
 - **`rofi`**: a window switcher, run dialog, ssh-launcher and `dmenu` replacement.
+- **`xorg`**: is the most popular display server among Linux users.
 
 ### Extras
 
