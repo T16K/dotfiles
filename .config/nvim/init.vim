@@ -1,5 +1,6 @@
 source ~/.config/nvim/keys.vim
 source ~/.config/nvim/set.vim
+source ~/.config/nvim/plug.vim
 
 call plug#begin()
 	Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'} |
