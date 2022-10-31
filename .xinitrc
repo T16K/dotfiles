@@ -63,10 +63,18 @@ get_session(){
 	echo "dbus-launch ${dbus_args[*]}"
 }
 
-feh --bg-scale ./Pictures/a.jpg
-bash ~/.config/polybar/launch.sh --cuts
-picom &
-xset r rate 200 60
 exec dbus-launch --sh-syntax --exit-with-session i3
+
+# set background a.jpg
+feh --bg-scale ~/Pictures/a.jpg
+
+# set polybar https://github.com/adi1090x/polybar-themes
+bash ~/.config/polybar/launch.sh --cuts
+
+# standalone compositor for Xorg
+picom &
+
+# Modify DPMS
+xset r rate 200 60
 
 # exec $(get_session "$1")
