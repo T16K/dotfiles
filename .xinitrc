@@ -63,8 +63,6 @@ get_session(){
 	echo "dbus-launch ${dbus_args[*]}"
 }
 
-exec dbus-launch --sh-syntax --exit-with-session i3
-
 # set background a.jpg
 feh --bg-scale ~/Pictures/a.jpg
 
@@ -76,5 +74,7 @@ picom &
 
 # Modify DPMS
 xset r rate 200 60
+
+exec dbus-launch --sh-syntax --exit-with-session i3
 
 # exec $(get_session "$1")
