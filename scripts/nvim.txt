@@ -1,0 +1,12 @@
+https://github.com/jiangmiao/auto-pairs
+https://github.com/junegunn/goyo.vim
+https://github.com/yggdroot/indentline
+https://github.com/itchyny/lightline.vim
+https://github.com/junegunn/limelight.vim
+https://github.com/unblevable/quick-scope
+https://github.com/godlygeek/tabular
+https://github.com/sirver/ultisnips
+https://github.com/tpope/vim-commentary
+https://github.com/sheerun/vim-polyglot
+https://github.com/mg979/vim-visual-multi
+https://github.com/lervag/vimtex
