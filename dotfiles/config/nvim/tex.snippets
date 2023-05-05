@@ -10,18 +10,6 @@ def env(name):
 	return x != '0' and y != '0'
 endglobal
 
-snippet bf "textbf" bA
-\textbf{$0}
-endsnippet
-
-snippet italic "emph" bA
-\emph{$0}
-endsnippet
-
-snippet uline "underline" bA
-\underline{$0}
-endsnippet
-
 snippet input "input{}" bA
 \input{sections/$0}
 endsnippet
@@ -78,6 +66,10 @@ snippet item "Itemize" bA
 \begin{itemize}
 	\item $0
 \end{itemize}
+endsnippet
+
+snippet i "item" b
+\item
 endsnippet
 
 snippet citem "Multiple columns + Itemize" bA
