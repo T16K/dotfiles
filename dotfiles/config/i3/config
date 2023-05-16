@@ -16,6 +16,7 @@ bindsym $mod+b exec --no-startup-id ~/.config/rofi/applets/bin/brightness.sh
 bindsym $mod+p exec --no-startup-id ~/.config/rofi/applets/bin/screenshot.sh
 bindsym $mod+q exec --no-startup-id ~/.config/rofi/powermenu/powermenu.sh
 bindsym $mod+v exec --no-startup-id ~/.config/rofi/applets/bin/volume.sh
+bindsym $mod+Shift+p exec --no-startup-id "flameshot gui --raw | tesseract stdin stdout -l eng | xclip -in -selection clipboard"
 
 # You can also use any non-zero value if you'd like to have a border
 default_border pixel 0
