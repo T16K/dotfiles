@@ -84,6 +84,10 @@ picom &
 # Modify DPMS
 xset r rate 200 60
 
+# ideapad S145
+# xrandr --output eDP-1 --off
+# xmodmap ~/.Xmodmap
+
 exec dbus-launch --sh-syntax --exit-with-session i3
 
 # exec $(get_session "$1")

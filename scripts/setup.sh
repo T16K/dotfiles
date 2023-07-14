@@ -15,6 +15,7 @@ WALL_DIR="$HOME/Wallpapers"
 CONF_DIR="$HOME/.config"
 X11_DIR="$HOME/.xinitrc"
 ZSH_DIR="$HOME/.zshrc"
+XMODMAP_DIR="$HOME/.Xmodmap"
 
 # Install Fonts ------------------------
 install_fonts() {
@@ -207,6 +208,16 @@ install_ZSH() {
 	{ cp $DIR/../dotfiles/zshrc "$ZSH_DIR"; }
 }
 
+## Install .Xmodmap --------------------
+install_XMODMAP() {
+	if [[ -f "$XMODMAP_DIR" ]]; then
+		echo -e ${BPurple}"[*] Creating a backup of your .Xmodmap..." ${Color_Off}
+		mv "$XMODMAP_DIR" "${XMODMAP_DIR}.old"
+	fi
+	echo -e ${BBlue}"[*] Installing .Xmodmap...\n" ${Color_Off}
+	{ cp $DIR/../dotfiles/Xmodmap "$ZSH_DIR"; }
+}
+
 
 
 # Main
@@ -224,6 +235,7 @@ main() {
     install_zat
     install_X11
     install_ZSH
+    install_XMODMAP
 }
 
 main

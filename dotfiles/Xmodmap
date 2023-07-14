@@ -1,0 +1,6 @@
+clear mod4
+keycode 119 = Super_L
+add mod4 = Super_L
+
+keycode 112 = slash question
+keycode 117 = backslash bar
