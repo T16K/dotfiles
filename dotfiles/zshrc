@@ -479,3 +479,6 @@ bindkey "^R" history-incremental-pattern-search-backward
 bindkey "^S" history-incremental-pattern-search-forward
 
 if [ -f ~/.alert ]; then echo '>>> Check ~/.alert'; fi
+
+alias ryujinx='./storage/Games/Nintendo/publish/Ryujinx'
+alias rep='cd storage/GitHub/Repositories'
