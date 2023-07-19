@@ -30,3 +30,6 @@ set ttyfast                 " Speed up scrolling in Vim
 " open new split panes to right and below
 set splitright
 set splitbelow
+
+autocmd VimEnter,WinEnter,BufWinEnter * execute 'normal! zz'
+autocmd CursorMoved * execute 'normal! zz'
