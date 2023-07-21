@@ -28,6 +28,7 @@ light
 linux-headers
 maim
 mpv
+p7zip
 pavucontrol
 python-adblock
 python-pip
