@@ -215,7 +215,7 @@ install_XMODMAP() {
 		mv "$XMODMAP_DIR" "${XMODMAP_DIR}.old"
 	fi
 	echo -e ${BBlue}"[*] Installing .Xmodmap...\n" ${Color_Off}
-	{ cp $DIR/../dotfiles/Xmodmap "$ZSH_DIR"; }
+	{ cp $DIR/../dotfiles/Xmodmap "$XMODMAP_DIR"; }
 }
 
 
