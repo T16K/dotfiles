@@ -87,6 +87,7 @@ xset r rate 200 60
 # ideapad S145
 # xrandr --output eDP-1 --off
 # xmodmap ~/.Xmodmap
+# rfkill unblock all
 
 exec dbus-launch --sh-syntax --exit-with-session i3
 

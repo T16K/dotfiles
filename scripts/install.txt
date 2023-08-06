@@ -19,6 +19,7 @@ dkms
 feh
 ffmpeg
 flameshot
+flatpak
 inkscape
 jq
 lazygit
