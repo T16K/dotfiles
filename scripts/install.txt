@@ -22,6 +22,7 @@ flameshot
 flatpak
 inkscape
 jq
+keepassxc
 lazygit
 openssh
 picom
@@ -35,6 +36,7 @@ python-adblock
 python-pip
 slim-themes
 socat
+tesseract
 tmux
 xclip
 xorg-xinit
