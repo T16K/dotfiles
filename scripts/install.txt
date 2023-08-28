@@ -16,6 +16,7 @@ alsa-utils
 bc
 dbus
 dkms
+docker
 feh
 ffmpeg
 flameshot
