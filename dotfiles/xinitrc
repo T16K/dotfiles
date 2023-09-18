@@ -86,6 +86,7 @@ xset r rate 200 60
 
 # ideapad S145
 # xrandr --output eDP-1 --off
+# xrandr --output eDP-1 --auto --output HDMI-1 --primary --auto --left-of eDP-1
 # xmodmap ~/.Xmodmap
 # rfkill unblock all
 
